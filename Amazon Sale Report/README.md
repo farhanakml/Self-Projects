@@ -39,3 +39,7 @@ For this project, we use the dataset E-Commerce Sales Dataset that we found from
 * **Git**
 
 ## Screenshots
+(p.s this is our first time making a dashboard 😅)
+### Akmal's Dashboard
+![image](https://github.com/user-attachments/assets/4608ed75-f670-49e1-86c9-835cb5fbe2ad)
+### Sofi's Dashboard
