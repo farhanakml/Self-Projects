@@ -43,3 +43,4 @@ For this project, we use the dataset E-Commerce Sales Dataset that we found from
 ### Akmal's Dashboard
 ![image](https://github.com/user-attachments/assets/4608ed75-f670-49e1-86c9-835cb5fbe2ad)
 ### Sofi's Dashboard
+![image](https://github.com/user-attachments/assets/7a59cf7a-c394-4a02-8fa0-ebf92512d2f0)
