@@ -57,3 +57,6 @@ The Products sheet lists the available products, including the type of coffee an
 * **Charts**: To visually represent trends and key metrics.
 
 ## Dashboard
+### Sofi's Dashboard
+![image](https://github.com/user-attachments/assets/4b65c60a-b3d2-467c-83fb-1d3e82c7981c)
+### Akmal's Dashboard
