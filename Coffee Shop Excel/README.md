@@ -1,6 +1,8 @@
 # Coffee Shop Sales Excel Project
 This project involves analyzing sales data from a coffee shop using Excel. We used various Excel functions to clean and explore the data, and we created a simple dashboard to visualize sales performance.
 
+We found this project from : https://www.youtube.com/watch?v=m13o5aqeCbM&ab_channel=MoChen
+
 ## Introduction
 In this project, we looked at coffee shop sales to understand which products are selling well and how much revenue is being generated. The data includes product names, dates of sales, quantities sold, and prices. We cleaned the data and then used Excel functions to find trends and create a basic dashboard.
 
@@ -60,3 +62,4 @@ The Products sheet lists the available products, including the type of coffee an
 ### Sofi's Dashboard
 ![image](https://github.com/user-attachments/assets/4b65c60a-b3d2-467c-83fb-1d3e82c7981c)
 ### Akmal's Dashboard
+![image](https://github.com/user-attachments/assets/bf28d91b-5765-4b34-83da-257a2b5b7d18)
