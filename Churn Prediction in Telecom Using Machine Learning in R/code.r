@@ -42,3 +42,11 @@ data$tenure <- scale(data$tenure)
 data$MonthlyCharges <- scale(data$MonthlyCharges)
 data$TotalCharges <- as.numeric(data$TotalCharges)  # Convert TotalCharges to numeric
 data$TotalCharges <- scale(data$TotalCharges)
+
+# Split the data
+set.seed(42)
+library(caret)
+trainIndex <- createDataPartition(data$Churn, p = 0.8, list = FALSE)
+trainData <- data[trainIndex, ]
+testData <- data[-trainIndex, ]
+
