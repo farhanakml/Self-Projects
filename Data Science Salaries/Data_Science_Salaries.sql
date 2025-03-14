@@ -54,14 +54,14 @@ HAVING average_salary >= 40000;
 -- 6. In Which Year does the Salary Rise the Most From Mid Experience Level to the Expert Experience Level (For Full Time Data Analyst)?
 
 WITH ds_1 AS (
-	SELECT work_year, AVG(salary_in_usd) as average_salary
+	SELECT work_year, ROUND(AVG(salary_in_usd),2) as average_salary_expert
 	FROM ds_salaries
 	WHERE job_title LIKE '%Data Analyst%' AND employment_type = 'FT' AND experience_level = 'EX'
 	GROUP BY work_year
 ), ds_2 AS (
-	SELECT work_year, AVG(salary_in_usd) as average_salary
+	SELECT work_year, ROUND(AVG(salary_in_usd),2) as average_salary_mid
 	FROM ds_salaries
 	WHERE job_title LIKE '%Data Analyst%' AND employment_type = 'FT' AND experience_level = 'MI'
 	GROUP BY work_year
-) SELECT *
+) SELECT ds_1.work_year, ds_1.average_salary_expert, ds_2.average_salary_mid, ds_1.average_salary_expert - ds_2.average_salary_mid differences
 FROM ds_1 LEFT OUTER JOIN ds_2 ON ds_1.work_year = ds_2.work_year
