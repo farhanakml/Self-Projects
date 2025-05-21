@@ -7,7 +7,7 @@ app_id = "com.gojek.app"
 # Initialize variables
 all_reviews = []
 token = None  # Start without a token
-total_reviews = 10000  # Target number of reviews
+total_reviews = 30000  # Target number of reviews
 
 while len(all_reviews) < total_reviews:
     print(f"Scraping... Collected {len(all_reviews)} reviews so far.")

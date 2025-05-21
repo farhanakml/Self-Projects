@@ -1,0 +1,21 @@
+1. Cara Menjalankan Script ETL Pipeline:
+Pastikan semua dependency telah diinstall, misalnya menggunakan requirements.txt:
+pip install -r requirements.txt
+
+Kemudian jalankan script ETL dengan perintah berikut:
+python main.py
+
+2. Cara Menjalankan Unit Test:
+
+Gunakan perintah berikut di terminal dari root folder project:
+pytest tests/
+
+3. Cara Menjalankan Test Coverage
+Jalankan perintah berikut dari root proyek:
+coverage run -m pytest
+
+Untuk melihat hasilnya di terminal:
+coverage report -m
+
+4. Link Google Sheets
+https://docs.google.com/spreadsheets/d/179m9rqVodTt0cZ6oJvdGRQtjKyqgBUQM0Uh3G0dx_zk/edit?gid=0#gid=0
